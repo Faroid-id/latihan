@@ -1,16 +1,13 @@
 class mobil{
     String merk;
     int jumlahRoda;
-    static String var1="awokwkkwkwkw";
 
     mobil(String merk, int jumlahRoda){
         this.merk=merk;
         this.jumlahRoda=jumlahRoda;
     }
 
-    static void showVar1(){
-        System.out.println(var1);
-    }
+
 }
 
 
@@ -22,7 +19,6 @@ public class App {
         System.out.print("Mobil ini berroda : ");
         System.out.println(mobil1.jumlahRoda);
 
-        System.out.print("ini tambahan : ");
-        mobil.showVar1();
+   
     }
 }
